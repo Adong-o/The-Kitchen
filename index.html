@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Kitchen || Adongo</title>
+    <link rel="icon" href="./images/logo.jpg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Zeyada&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <nav class="nav">
+          <ul id="navigation">
+            <a href="#home-page"><li>Home</li></a>
+            <a href="#about-us"><li>About</li></a>
+            <a href="#menu"><li>Menu</li></a>
+            <a href="#home-page"><img src="images/logo.jpg" alt="logo" height="140px"></a>
+            <a href="#gallery"><li>Gallery</li></a>
+            <a href="#reserve"><li>Reservations</li></a>
+            <a href="#contact"><li>Contact</li></a>
+          </ul>
+        </nav>
+
+        <div class="mobile-menu" id="mobile-menu">
+            <div class="toggle-menu">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav">&times; </a>
+                <ul>
+                    <a href="#home"><li>Home</li></a>
+                    <a href="#about-us"><li>About</li></a>
+                    <a href="#menu"><li>Menu</li></a>
+                    <a href="#gallery"><li>Gallery</li></a>
+                    <a href="#reserve"><li>Reservations</li></a>
+                    <a href="#contact"><li>Contact</li></a>
+                </ul>
+            </div>
+        </div>
+        <div id="content-area">
+            <span style="font-size: 30px; cursor: pointer; " onclick="openNav()">&#9776;</span>
+        </div>
+        <img src="images/logo.jpg" alt="the logo" id="stylet">
+    </header>
+    
+
+    
+        <div class="home-page" id="home-page">
+            <img src="./images/upfront.jpg" alt="">
+            <div class="text">
+                <h1>Welcome to The Kitchen</h1>
+                <h3>For all your favourite meals.....</h3>
+            </div>
+            <button type="button">
+               <a href="#reserve">BOOK NOW</a>
+            </button>
+        </div>
+     <fieldset>
+        <div class="about" id="about-us">
+            <h1>About Us</h1>
+            <div>
+            <p>Step into a world of culinary delights with our restaurant! Our establishment offers an unforgettable dining experience that will leave your taste buds craving for more. From the freshest ingredients to the most creative recipes, our chefs pour their hearts into every dish, delivering an explosion of flavors with every bite. With a cozy and inviting atmosphere, our restaurant is the perfect place to enjoy a romantic dinner for two, a family celebration, or a night out with friends. Our attentive and friendly staff will make sure that you feel right at home, while our carefully curated wine list will perfectly complement your meal. So what are you waiting for? Book your table today and get ready to indulge in a feast for the senses!
+            </p>
+            <img src="./images/reservations.jpg" alt="" width="500px">
+            </div>
+        </div>
+    
+     </fieldset>
+     <fieldset>
+        <div class="menu" id="menu">
+            <h1>MENU</h1>
+            <div class="choose">
+                <h2>Foods</h2>
+                <ul class="food">
+                    <li><h3>Pizza<span> ---------------------------$20.00</span></h3></li>
+                    <li><h3>Pasta<span> ---------------------------$10.55</span></h3></li>
+                    <li><h3>Tacos<span> ---------------------------$5.00</span></h3></li>
+                    <li><h3>Wasabi<span> --------------------------$12.00</span></h3></li>
+                    <li><h3>Cheese<span> --------------------------$2.99</span></h3></li>
+                    <li><h3>Rice dishes<span> --------------------$15.00</span></h3></li>
+                </ul>
+                <h2>Drinks</h2>
+                <ul class="drink">
+                    <li><h3>Milk Shakes<span> ---------------------$2.00</span></h3></li>
+                    <li><h3>Coke<span> ----------------------------$8.00</span></h3></li>
+                    <li><h3>Pepsi<span> ----------------------------$7.00</span></h3></li>
+                    <li><h3>Fanta<span> ----------------------------$7.00</span></h3></li>
+                    <li><h3>Sprite<span> ----------------------------$7.00</span></h3></li>
+                    <li><h3>Juices<span> ----------------------------$7.00</span></h3></li>
+                </ul>
+                <h2>Salads</h2>
+                <ul class="salad">
+                    <li><h3>Cobb Salad<span> -----------------------------$7.00</span></h3></li>
+                    <li><h3>Greek Salad<span> -----------------------------$7.00</span></h3></li>
+                    <li><h3>Caesar Salad<span> ----------------------------$7.00</span></h3></li>
+                    <li><h3>Warldoff Salad<span> --------------------------$7.00</span></h3></li>
+                    <li><h3>Tuna Salad<span> ------------------------------$7.00</span></h3></li>
+                    <li><h3>Potato Salad<span> ----------------------------$7.00</span></h3></li>
+                </ul>
+
+            </div>
+
+        </div>
+     </fieldset>
+     <fieldset>
+        <div class="menudown">
+            <h2>The Kitchen</h2>
+            <h4>All delightful tastes available🎉🎂</h4>
+            <button type="button">Reserve Here</button>
+        </div>
+     </fieldset>
+     <fieldset>
+        <div class="gallery" id="gallery">
+            <h1>The Gallery</h1>
+            <ul class="images">
+                <li><img src="./images/Australian-Drinks-Cover.jpg"></li>
+                <li> <img src="./images/drinks-to-avoid-1621959532.jpg" alt=""> </li>
+                <li> <img src="./images/eboost-super-fuel-energy-drink.jpg" alt=""> </li>
+            </ul>
+            <ul class="images">
+                <li> <img src="./images/pexels-photo-602750 (1).jpg" alt=""> </li>
+                <li> <img src="./images/slow-cooked-lamb-with-crispy-parmesan-roast-potatoes-148369-1.jpg" alt=""> </li>
+                <li> <img src="./images/Brazilian-cuisine-Shrimp-stew-usually-served-with-rice-mush-and-manioc-flour (1).jpg" alt=""> </li>
+            </ul>
+        </div>
+     </fieldset>
+    <fieldset>
+        <div class="form" id="reserve">
+            <h1>Reservetions</h1>
+            <h3>Booking Form</h3>
+            <h4>PLEASE FILL IN *REQUIRED* PLACES. THANKS!</h4>
+            <div class="fill">
+                <form action="https://formsubmit.co/el/zegose" method="POST">
+                    <input type="text" placeholder="Enter Name" required>
+                    <input type="text" placeholder="Email" name="Email" required>
+                    <input type="text" placeholder="Telephone Number" name="Tel" required>
+                    <input type="text" placeholder="Date" name="Date" required>
+                    <input type="text" placeholder="Time" name="Time" required>
+                    <input type="text" placeholder="Comment(optional)">
+                    <input type="text" placeholder="Location" name="location" required>
+                    <br>
+                    <br>
+                    <br>
+                    <button type="submit">BOOK A TABLE</button>
+                    
+                </form>
+            </div>
+        </div>
+    </fieldset>
+    <fieldset>
+
+        <div class="finalpage" id="contact">
+            <div>
+            <h3>About Us</h3>
+            <p>Aenean commodo ligula eget dolor aenean massa. Cum sociis nat penatibu set magnis dis parturient montes.</h5></p>
+            <br>
+            <ul class="socials">
+               <a href="https://www.instagram.com/lord.adongo/" target="_blank" title="instagram"> <li><i class="fa-brands fa-instagram"></i></li></a>
+               <a href="https://twitter.com/Boii_07202003" target="_blank" title="twitter">  <li><li><i class="fa-brands fa-twitter"></i></li></a>
+               <a href="https://github.com/Adong-o" target="_blank" title="github"> <li><li><i class="fa-brands fa-github"></i></li></a>
+            </ul>
+        </div>
+        <div>
+           <h3>New Menu</h3>
+           <p>Italian Bomba Sandwich
+            Double Dose of Pork Belly
+            Spicy Thai Noodles
+            Triple Truffle Trotters</p>
+        <br>
+        <br>
+        </div>
+        <div>
+            <h3>Contact Us</h3>
+            <p>6 Espla, St Albaio VIC 8881, Australia
+                +91 222 33333 
+                support@rachfoods.com</h5>
+                <br>
+                <br>
+            </p>
+        </div>
+        <div>
+            <h3>Opening Hours</h3>
+            <p>Monday - Thursday
+                11:00 AM - 9:00 PM 
+                Friday - Saturday
+                
+                11:00 AM - 5:00 PM</h5>
+                <br>
+                <br></p>
+        </div>
+        </div>
+    </fieldset>
+    <footer>
+        <div>
+            <h4>&copy; 2023 All Rights Reserved. The Kitchen </h4>
+        </div>
+    </footer>
+    <script src="./index.js"></script>
+
+</body>
+</html>
